@@ -1,0 +1,45 @@
+[2025-12-03 12:22:22,202] kopf._core.engines.a [INFO    ] Initial authentication has been initiated.
+[2025-12-03 12:22:22,205] kopf.activities.auth [INFO    ] Activity 'login_via_client' succeeded.
+[2025-12-03 12:22:22,205] kopf._core.engines.a [INFO    ] Initial authentication has finished.
+[2025-12-03 12:22:22,327] root                 [INFO    ] Kopf create handler triggered for fuck, DB=qdrant
+[2025-12-03 12:22:22,345] root                 [ERROR   ] Error creating deployment: (409)
+Reason: Conflict
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '280538cf-1870-4cd4-9ddd-a59a6ddda2c8', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '1690a370-cc8b-4b12-8a47-9b1933b8d121', 'X-Kubernetes-Pf-Prioritylevel-Uid': 'f9c023bb-1861-4945-8d97-f1d7f7702d1e', 'Date': 'Wed, 03 Dec 2025 06:52:22 GMT', 'Content-Length': '242'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"deployments.apps \"fuck-deployment\" already exists","reason":"AlreadyExists","details":{"name":"fuck-deployment","group":"apps","kind":"deployments"},"code":409}
+
+
+[2025-12-03 12:22:22,346] root                 [INFO    ] Kopf create handler triggered for mydb, DB=qdrant
+[2025-12-03 12:22:22,352] root                 [ERROR   ] Error creating deployment: (409)
+Reason: Conflict
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '501e0ef1-0820-4f13-a3e1-4c5cd70a232b', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '1690a370-cc8b-4b12-8a47-9b1933b8d121', 'X-Kubernetes-Pf-Prioritylevel-Uid': 'f9c023bb-1861-4945-8d97-f1d7f7702d1e', 'Date': 'Wed, 03 Dec 2025 06:52:22 GMT', 'Content-Length': '242'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"deployments.apps \"mydb-deployment\" already exists","reason":"AlreadyExists","details":{"name":"mydb-deployment","group":"apps","kind":"deployments"},"code":409}
+
+
+[2025-12-03 12:22:22,353] root                 [INFO    ] Kopf create handler triggered for mylace, DB=qdrant
+[2025-12-03 12:22:22,362] root                 [ERROR   ] Error creating deployment: (409)
+Reason: Conflict
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '59008f82-390a-4030-82be-87541b6a62b5', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '1690a370-cc8b-4b12-8a47-9b1933b8d121', 'X-Kubernetes-Pf-Prioritylevel-Uid': 'f9c023bb-1861-4945-8d97-f1d7f7702d1e', 'Date': 'Wed, 03 Dec 2025 06:52:22 GMT', 'Content-Length': '246'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"deployments.apps \"mylace-deployment\" already exists","reason":"AlreadyExists","details":{"name":"mylace-deployment","group":"apps","kind":"deployments"},"code":409}
+
+
+[2025-12-03 12:22:22,363] root                 [INFO    ] Kopf create handler triggered for mylesdb, DB=qdrant
+[2025-12-03 12:22:22,376] root                 [ERROR   ] Error creating deployment: (409)
+Reason: Conflict
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '4c8a5c25-476a-4087-a365-1fc80773f331', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '1690a370-cc8b-4b12-8a47-9b1933b8d121', 'X-Kubernetes-Pf-Prioritylevel-Uid': 'f9c023bb-1861-4945-8d97-f1d7f7702d1e', 'Date': 'Wed, 03 Dec 2025 06:52:22 GMT', 'Content-Length': '248'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"deployments.apps \"mylesdb-deployment\" already exists","reason":"AlreadyExists","details":{"name":"mylesdb-deployment","group":"apps","kind":"deployments"},"code":409}
+
+
+[2025-12-03 12:22:22,379] root                 [INFO    ] Kopf create handler triggered for mylesdb1, DB=qdrant
+[2025-12-03 12:22:22,395] root                 [ERROR   ] Error creating deployment: (409)
+Reason: Conflict
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'b2dd44b8-08d9-4409-b8ae-ac29b61cc2ea', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '1690a370-cc8b-4b12-8a47-9b1933b8d121', 'X-Kubernetes-Pf-Prioritylevel-Uid': 'f9c023bb-1861-4945-8d97-f1d7f7702d1e', 'Date': 'Wed, 03 Dec 2025 06:52:22 GMT', 'Content-Length': '250'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"deployments.apps \"mylesdb1-deployment\" already exists","reason":"AlreadyExists","details":{"name":"mylesdb1-deployment","group":"apps","kind":"deployments"},"code":409}
+
+
+[2025-12-03 12:22:22,397] root                 [INFO    ] Kopf create handler triggered for test-db, DB=qdrant
+[2025-12-03 12:22:22,408] root                 [ERROR   ] Error creating deployment: (409)
+Reason: Conflict
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '3a2c41e0-853a-429b-a8fd-a7066b17e5f8', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '1690a370-cc8b-4b12-8a47-9b1933b8d121', 'X-Kubernetes-Pf-Prioritylevel-Uid': 'f9c023bb-1861-4945-8d97-f1d7f7702d1e', 'Date': 'Wed, 03 Dec 2025 06:52:22 GMT', 'Content-Length': '248'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"deployments.apps \"test-db-deployment\" already exists","reason":"AlreadyExists","details":{"name":"test-db-deployment","group":"apps","kind":"deployments"},"code":409}
+
+
