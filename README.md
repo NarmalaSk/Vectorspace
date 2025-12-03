@@ -1,7 +1,7 @@
 ### Vectorspace
 
 Vector space allows ML Developers , Researchers to Run Ephermal Vector dbs . Helps in Also Exports of Indexes to cloud sources like s3 buckets.
-Locally it can spin up docker containers or ephermal pods o k8s
+Locally it can spin up docker containers or ephermal pods on k8s
 
 ##### Usecases:
 * Testing Data with different vector dbs and perform benchmarks
